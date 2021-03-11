@@ -1,0 +1,12 @@
+---
+azurehosts:
+  hosts:
+    devops1:
+      ansible_host: 13.81.66.207
+      ansible_port: 22
+      ansible_ssh_user: azureuser
+      ansible_ssh_private_key_file: ~/.ssh/id_rsa_devops
+    pms18vm:
+      ansible_host: pms18vm 
+      ansible_port: 22
+
